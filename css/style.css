@@ -105,8 +105,8 @@ a:hover{
 .info td{
 	padding: 1rem 0;
 }
-.copylight{
-	text-align: center;
+.copyright{
+	text-align: right;
 	padding: 2rem 0;
 	margin-top: 15rem;
 }
