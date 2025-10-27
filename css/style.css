@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+
+html{
+	font-size: 100%;
+	background-size: cover;
+	background-position: center bottom;
+	background-image: url(../image/wall_paper/wall-paper.jpg);
+	background-repeat: repeat;
+}
+body{
+	line-height: 1;
+	color: #3d3702;
+}
+a{
+	text-decoration: none;	
+}
+
+/*フォント*/
+.font-Manrope{
+	font-family: 'Manrope' sans-serif;
+	font-weight: normal;	
+}
+
+/*ヘッダー*/
+.page-header{
+	padding-top: 0;
+}
+.header-title{
+	text-align: left;
+	margin-top: 0;
+}
+/*ナビゲーション*/
+.main-nav{
+	display: flex;
+	justify-content: right;
+	gap: 2.5rem;
+	font-size: 1.5rem;
+	list-style: none;
+}
+a{
+	color: #3d3702;
+}
+a:hover{
+	color: #939064;
+}
+
+/*本文*/
+.contents-title {
+	width: 110px;
+	margin-top: 20px;
+}
+.plofile,
+.skills,
+.works,
+.contact{
+	max-width: 736px;
+	padding: 0 1.5rem;
+	margin: 3rem auto 0;
+}
+.career {
+	list-style: none;
+}
+.career > li {
+	margin-bottom: 60px;
+	overflow: hidden;
+	margin: 0;
+	position: relative;
+}
+
+.timeline-date,
+.skill-header{
+	float: left;
+}
+.timeline-content,
+.content {
+	overflow: hidden;
+	width: 75%;
+	float: left;
+	border-left: dotted 3px #3d3702 ;
+	padding-left: 30px;
+}
+.timeline-content:before {
+	font-size: 60px;
+	position: absolute;
+	left: 100px;
+	color: #3d3702;
+}
+.info{
+	width: 100%;
+	max-width: 736px;
+	margin: auto;
+	padding: 0 1.5rem;
+	border-spacing: 0;
+}
+.info th,
+.info td{
+	border-bottom: 1px solid #3d3702 ;
+}
+.info th{
+	text-align: left;
+	font-weight: normal;
+	padding: 1rem;
+}
+.info td{
+	padding: 1rem 0;
+}
+.copylight{
+	text-align: center;
+	padding: 2rem 0;
+	margin-top: 15rem;
+}
+iframe{
+	margin-top: 2rem;
+	width: 100%;
+}
+
+@media(min-width: 800px){
+
+.main-nav{
+	font-size: 1rem;
+}
+.page-header{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1rem;
+	border-bottom: 2px solid #3d3702;
+}
+}
